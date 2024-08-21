@@ -5,7 +5,7 @@ services:
     image: portfolio_frontend
     container_name: portfolio_frontend
     ports:
-      - "3000:3000"
+      - "4000:3000"
     networks:
       - nginx_network
 
