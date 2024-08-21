@@ -2,6 +2,8 @@ services:
   frontend:
     build:
       context: .
+      args:
+        RESEND_API_KEY: "resend-api-key"
     image: portfolio_frontend
     container_name: portfolio_frontend
     ports:
