@@ -3,7 +3,6 @@ import { Poppins, Rubik } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/Navbar";
-import { siteConfig } from "./page";
 
 const poppins = Poppins({
     subsets: ["latin"],
@@ -16,8 +15,15 @@ const rubik = Rubik({
     variable: "--font-rubik",
 });
 
+const siteConfig = {
+    name: "Patrick - hung.thai",
+    description: "I am a Passionate Software Developer",
+    ogImage: "https://portfolio.hungthai.site/og-image.png",
+    url: "https://portfolio.hungthai.site",
+};
+
 export const metadata: Metadata = {
-    metadataBase: new URL("https://mdTaquiImam.vercel.app"),
+    metadataBase: new URL("https://portfolio.hungthai.site"),
     title: {
         default: siteConfig.name,
         template: `%s - Software Engineer`,
