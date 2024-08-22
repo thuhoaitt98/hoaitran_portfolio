@@ -6,19 +6,19 @@ import { Phone } from "lucide-react";
 
 const contactPage = () => {
     return (
-        <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden">
-            <Badge className=" gap-2">
+        <div className="relative flex h-full w-full flex-col items-start gap-5 overflow-hidden">
+            <Badge className="gap-2">
                 <Phone className="h-5 w-5" />
                 Contact
             </Badge>
-            <div className="flex flex-col gap-3 w-full">
+            <div className="flex w-full flex-col gap-3">
                 <Heading>Contact Me!</Heading>
-                <div className="h-auto w-full flex justify-center items-center">
+                <div className="flex h-auto w-full items-center justify-center">
                     <FramerWrapper y={0} scale={0.8}>
                         <ContactForm />
                     </FramerWrapper>
                 </div>
-                <p className=" font-poppins text-lg w-full text-primary max-sm:text-base"></p>
+                <p className="w-full font-poppins text-lg text-primary max-sm:text-base"></p>
             </div>
         </div>
     );

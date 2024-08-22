@@ -15,7 +15,7 @@ const SkillsFooter: React.FC<MyComponentProps> = ({ items }) => {
                             <Image
                                 src={val?.img}
                                 alt={val?.alt}
-                                className="rounded-full w-auto max-h-20"
+                                className="max-h-20 w-auto rounded-full"
                             />
                         </div>
                     );

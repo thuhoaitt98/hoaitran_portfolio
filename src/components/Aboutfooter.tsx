@@ -19,12 +19,12 @@ const Aboutfooter = () => {
         <>
             {items.map((val, indx) => {
                 return (
-                    <div className="p-1 w-fit relative" key={indx}>
-                        <h1 className="gap-2 text-3xl font-poppins text-primary font-semibold relative flex icon_underline max-sm:text-2xl">
+                    <div className="relative w-fit p-1" key={indx}>
+                        <h1 className="icon_underline relative flex gap-2 font-poppins text-3xl font-semibold text-primary max-sm:text-2xl">
                             {val.icon}
                             {val.name}
                         </h1>
-                        <div className="flex gap-2 justify-center items-center flex-row text-xl text-primary pt-3 max-lg:justify-start">
+                        <div className="flex flex-row items-center justify-center gap-2 pt-3 text-xl text-primary max-lg:justify-start">
                             <Circle className="h-3 w-3" /> {val.answer}
                         </div>
                     </div>

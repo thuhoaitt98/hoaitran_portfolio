@@ -75,15 +75,15 @@ const projectsPage = () => {
 
     return (
         // PROJECT PAGE
-        <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden">
-            <Badge className=" gap-2">
+        <div className="relative flex h-full w-full flex-col items-start gap-5 overflow-hidden">
+            <Badge className="gap-2">
                 <Layers className="h-5 w-5" />
                 Projects
             </Badge>
             <div className="flex flex-col gap-3">
                 <Heading>My Projects</Heading>
                 <FramerWrapper y={0} x={200}>
-                    <p className=" font-poppins text-lg w-full text-primary max-sm:text-base">
+                    <p className="w-full font-poppins text-lg text-primary max-sm:text-base">
                         I love to Build Cool Projects. Here, you&#x27;ll find a
                         curated collection of my creative endeavors and
                         technical projects. Each piece represents a journey of
@@ -93,7 +93,7 @@ const projectsPage = () => {
                     </p>
                 </FramerWrapper>
             </div>
-            <div className=" w-full flex flex-row flex-wrap gap-3 max-lg:flex-col">
+            <div className="flex w-full flex-row flex-wrap gap-3 max-lg:flex-col">
                 {Projects.map((val, indx) => {
                     return <ProjectCards key={indx} value={val} num={indx} />;
                 })}

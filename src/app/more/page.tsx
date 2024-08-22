@@ -55,15 +55,15 @@ const morePage = () => {
     ];
 
     return (
-        <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden">
-            <Badge className=" gap-2">
+        <div className="relative flex h-full w-full flex-col items-start gap-5 overflow-hidden">
+            <Badge className="gap-2">
                 <PackagePlus className="h-5 w-5" />
                 More
             </Badge>
             <div className="flex flex-col gap-3">
                 <Heading>More</Heading>
             </div>
-            <div className="h-auto w-full flex flex-wrap gap-3 p-2">
+            <div className="flex h-auto w-full flex-wrap gap-3 p-2">
                 {morelink.map((value, indx) => {
                     return (
                         <FramerWrapper
@@ -79,7 +79,7 @@ const morePage = () => {
                                     <CardTitle>{value.title}</CardTitle>
                                 </CardHeader>
                                 <CardContent>
-                                    <p className="text-base font-poppins">
+                                    <p className="font-poppins text-base">
                                         {value.description}
                                     </p>
                                 </CardContent>

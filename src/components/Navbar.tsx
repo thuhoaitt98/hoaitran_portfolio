@@ -54,7 +54,7 @@ const Navbar = () => {
 
     return (
         <FramerWrapper
-            className={`h-fit w-fit fixed top-5 right-0 left-0 px-5   m-auto border border-black rounded-full  p-2 bg-transparent   flex-row gap-3 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-100 max-sm:gap-1 ${scrolling ? "hidden" : "flex"}`}
+            className={`fixed left-0 right-0 top-5 m-auto h-fit w-fit flex-row gap-3 rounded-full border border-black bg-transparent p-2 px-5 transition delay-150 ease-in-out hover:-translate-y-1 hover:scale-100 max-sm:gap-1 ${scrolling ? "hidden" : "flex"}`}
             y={-100}
         >
             {items.map(itm => {
@@ -71,7 +71,7 @@ const Navbar = () => {
                                         }),
                                         "hover:text-[#2f7df4]",
                                         pathname === itm.link &&
-                                            "text-[#2f7df4] bg-zinc-100",
+                                            "bg-zinc-100 text-[#2f7df4]",
                                     )}
                                 >
                                     {itm.icon}

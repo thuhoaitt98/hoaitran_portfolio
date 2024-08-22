@@ -30,7 +30,7 @@ const ContactForm = () => {
                     </CardDescription>
                 </CardHeader>
                 <CardContent>
-                    <div className="grid w-full max-w-sm items-center gap-1.5 mt-2">
+                    <div className="mt-2 grid w-full max-w-sm items-center gap-1.5">
                         <Label htmlFor="name">Name</Label>
                         <Input
                             type="text"
@@ -39,7 +39,7 @@ const ContactForm = () => {
                             placeholder="Enter your name"
                         />
                     </div>
-                    <div className="grid w-full max-w-sm items-center gap-1.5 mt-2">
+                    <div className="mt-2 grid w-full max-w-sm items-center gap-1.5">
                         <Label htmlFor="email">Email</Label>
                         <Input
                             type="email"
@@ -48,13 +48,13 @@ const ContactForm = () => {
                             placeholder="Enter your email"
                         />
                     </div>
-                    <div className="grid w-full max-w-sm items-center gap-1.5 mt-2">
+                    <div className="mt-2 grid w-full max-w-sm items-center gap-1.5">
                         <Label htmlFor="message">Your Message</Label>
                         <textarea
                             placeholder="Your message here..."
                             name="message"
                             required
-                            className=" resize-none flex min-h-[80px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                            className="flex min-h-[80px] w-full resize-none rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
                         ></textarea>
                     </div>
                 </CardContent>

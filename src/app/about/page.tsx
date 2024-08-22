@@ -14,8 +14,8 @@ const page = () => {
     ];
 
     return (
-        <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden">
-            <Badge className=" gap-2">
+        <div className="relative flex h-full w-full flex-col items-start gap-5 overflow-hidden">
+            <Badge className="gap-2">
                 <User2 className="h-5 w-5" />
                 About me
             </Badge>
@@ -24,7 +24,7 @@ const page = () => {
                     Software Engineer And Web <br /> Developer, Based In India.
                 </Heading>
                 <FramerWrapper y={0} x={100}>
-                    <p className=" font-poppins text-xl w-full text-primary max-sm:text-lg">
+                    <p className="w-full font-poppins text-xl text-primary max-sm:text-lg">
                         I am a Full Stack Web Developer from Ramgarh cantt,
                         Jharkhand, India. I love crafting cool web projects and
                         also open-source contribuitions. My biggest achievement
@@ -37,23 +37,23 @@ const page = () => {
                 </FramerWrapper>
             </div>
             <FramerWrapper
-                className="w-full flex flex-row justify-between max-lg:flex-col "
+                className="flex w-full flex-row justify-between max-lg:flex-col"
                 y={100}
                 delay={0.3}
             >
                 <Aboutfooter />
             </FramerWrapper>
             <FramerWrapper className="block" y={100} delay={0.31}>
-                <h1 className="gap-2 text-3xl font-poppins text-primary font-semibold flex icon_underline relative max-sm:text-2xl">
+                <h1 className="icon_underline relative flex gap-2 font-poppins text-3xl font-semibold text-primary max-sm:text-2xl">
                     {" "}
                     <Heart className="h-8 w-8" /> Hobbies
                 </h1>
-                <div className="w-full h-fit p-2 flex flex-row justify-between gap-7 max-lg:flex-col">
+                <div className="flex h-fit w-full flex-row justify-between gap-7 p-2 max-lg:flex-col">
                     {items.map((val, indx) => {
                         return (
                             <div
                                 key={indx}
-                                className="flex gap-2 justify-center items-center flex-row text-xl text-primary pt-3 max-lg:justify-start "
+                                className="flex flex-row items-center justify-center gap-2 pt-3 text-xl text-primary max-lg:justify-start"
                             >
                                 <Circle className="h-3 w-3" /> {val.hobby}
                             </div>
