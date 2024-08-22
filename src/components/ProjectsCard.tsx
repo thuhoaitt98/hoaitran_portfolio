@@ -1,13 +1,7 @@
 import { cn } from "@/lib/utils";
 import Link from "next/link";
-import { buttonVariants } from "./ui/button";
-import {
-    Card,
-    CardContent,
-    CardFooter,
-    CardHeader,
-    CardTitle,
-} from "@/components/ui/card";
+import { Button, buttonVariants } from "./ui/button";
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import FramerWrapper from "./FramerWrapper";
 import { ArrowUpRight } from "lucide-react";
 
@@ -33,16 +27,17 @@ const ProjectCards: React.FC<projectcardprops> = ({ value, num }) => {
                     <p className="font-poppins text-base">
                         {value.description}
                     </p>
-                    <div className="mt-2 flex h-fit w-full flex-row justify-center gap-3">
+                    <div className="mt-2 flex flex-wrap gap-2">
                         {value.tags.map((itm: string, indx: number) => {
-                            // return <Badge key={indx}>{itm}</Badge>
                             return (
-                                <span
-                                    className={`inline-flex items-center gap-x-1.5 rounded-full px-3 py-1.5 text-xs font-medium ${(itm === "Nextjs" && "bg-teal-100 text-teal-800") || (itm === "Freelancing" && "bg-yellow-100 text-yellow-800") || (itm === "Shadcn Ui" && "bg-blue-100 text-blue-800") || (itm === "Typescript" && "bg-red-100 text-red-800") || "bg-gray-100 text-gray-800"} `}
+                                <Button
+                                    className={
+                                        "px-3 py-1.5 text-xs font-medium"
+                                    }
                                     key={indx}
                                 >
                                     {itm}
-                                </span>
+                                </Button>
                             );
                         })}
                     </div>

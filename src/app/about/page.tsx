@@ -25,7 +25,7 @@ const page = () => {
                     Nam.
                 </Heading>
                 <FramerWrapper y={0} x={100}>
-                    <p className="w-full font-poppins text-xl text-primary max-sm:text-lg">
+                    <p className="w-full font-poppins text-justify text-xl text-primary max-sm:text-lg">
                         I am a Full Stack Web Developer from Nghe An, Viet Nam,
                         with extensive experience in building robust backend
                         systems for large-scale applications. While I have a

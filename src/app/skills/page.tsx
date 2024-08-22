@@ -1,5 +1,5 @@
 import Heading from "@/components/Heading";
-import SkillsFooter from "@/components/SkillsFotter";
+import SkillsFooter from "@/components/SkillsFooter";
 import { Badge } from "@/components/ui/badge";
 import { Lightbulb } from "lucide-react";
 import html from "../../../public/html.png";
@@ -28,9 +28,7 @@ import vscode from "../../../public/vscode.png";
 import FramerWrapper from "@/components/FramerWrapper";
 
 const skillPage = () => {
-    const language = [
-        { alt: "html", img: html },
-        { alt: "css", img: css },
+    const programmingLanguages = [
         { alt: "js", img: js },
         { alt: "ts", img: ts },
         { alt: "cplusplus", img: cplusplus },
@@ -39,11 +37,17 @@ const skillPage = () => {
         { alt: "kotlin", img: kotlin },
         { alt: "c#", img: csharp },
     ];
-    const framework = [
+
+    const webTechnologies = [
+        { alt: "html", img: html },
+        { alt: "css", img: css },
+        { alt: "scss", img: scss },
         { alt: "react", img: react },
         { alt: "nextjs", img: nextjs },
-        { alt: "scss", img: scss },
         { alt: "tailwind", img: tailwind },
+    ];
+
+    const toolsAndPlatforms = [
         { alt: "github", img: github },
         { alt: "vscode", img: vscode },
         { alt: "postgresql", img: postgresql },
@@ -87,20 +91,25 @@ const skillPage = () => {
                     >
                         Programming Languages
                     </h1>
-                    <div className="flex h-fit w-full flex-row items-center justify-between">
-                        <SkillsFooter items={language} />
-                    </div>
+                    <SkillsFooter items={programmingLanguages} />
                 </FramerWrapper>
                 <FramerWrapper className="block" y={100} delay={0.32}>
                     <h1
                         className="text_underline relative flex gap-2 font-poppins text-2xl font-semibold
                             text-primary max-sm:text-xl"
                     >
-                        Framework/Libraries and Version Control
+                        Web Technologies and Frameworks
                     </h1>
-                    <div className="flex h-fit w-full flex-row items-center justify-between">
-                        <SkillsFooter items={framework} />
-                    </div>
+                    <SkillsFooter items={webTechnologies} />
+                </FramerWrapper>
+                <FramerWrapper className="block" y={100} delay={0.34}>
+                    <h1
+                        className="text_underline relative flex gap-2 font-poppins text-2xl font-semibold
+                            text-primary max-sm:text-xl"
+                    >
+                        Tools and Platforms
+                    </h1>
+                    <SkillsFooter items={toolsAndPlatforms} />
                 </FramerWrapper>
             </div>
         </div>

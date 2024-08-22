@@ -22,7 +22,7 @@ const projectsPage = () => {
                 "Kubernetes",
                 "CI/CD (Github Actions)",
             ],
-            link: "https://github.com/hungdhv97/xoai_shop",
+            link: "https://www.yogiyo.co.kr/mobile/#/",
         },
         {
             title: "Xoai Shop - A comprehensive ecommerce shopping website",
@@ -142,7 +142,7 @@ const projectsPage = () => {
             <div className="flex flex-col gap-3">
                 <Heading>My Projects</Heading>
                 <FramerWrapper y={0} x={200}>
-                    <p className="w-full font-poppins text-lg text-primary max-sm:text-base">
+                    <p className="w-full font-poppins text-lg text-justify text-primary max-sm:text-base">
                         I love to Build Cool Projects. Here, you&#x27;ll find a
                         curated collection of my creative endeavors and
                         technical projects. Each piece represents a journey of
@@ -152,7 +152,7 @@ const projectsPage = () => {
                     </p>
                 </FramerWrapper>
             </div>
-            <div className="flex w-full flex-row flex-wrap gap-3 max-lg:flex-col">
+            <div className="flex w-full flex-row flex-wrap gap-3 max-lg:flex-col text-justify">
                 {Projects.map((val, indx) => {
                     return <ProjectCards key={indx} value={val} num={indx} />;
                 })}

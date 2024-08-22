@@ -12,7 +12,9 @@ const morePage = () => {
         {
             title: "codelearn.io",
             description:
-                "Mastering Vietnamese Virtual Assistant: Comprehensive Programming with Python",
+                "Working with machine learning and AI in image and audio processing has highlighted the importance of thorough data preprocessing. " +
+                "Clean code practices, especially in Python and Java, are essential for maintainability and collaboration. " +
+                "Clear naming, modular design, and good documentation are key to successful projects.",
             link: "https://codelearn.io/sharing/post/1429199",
         },
     ];
@@ -42,7 +44,7 @@ const morePage = () => {
                                     <CardTitle>{value.title}</CardTitle>
                                 </CardHeader>
                                 <CardContent>
-                                    <p className="font-poppins text-base">
+                                    <p className="font-poppins text-base text-justify">
                                         {value.description}
                                     </p>
                                 </CardContent>
