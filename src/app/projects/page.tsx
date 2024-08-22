@@ -83,13 +83,6 @@ const projectsPage = () => {
             link: "https://github.com/hungdhv97/covid-19-tracker-app",
         },
         {
-            title: "Devletter - A Newsletter subscription platform for developers",
-            description:
-                "Devletter is a single-page application built to provide developers with a platform to subscribe to tech newsletters. Using Next.js and TailwindCSS, the app delivers a smooth user experience with an emphasis on simplicity and efficiency. Subscribers can easily manage their preferences and receive curated content directly in their inboxes, keeping them updated on the latest developments in the tech world.",
-            tags: ["Nextjs", "Tailwindcss"],
-            link: "https://github.com/taqui-786/Devletter",
-        },
-        {
             title: "Virtual Voice Assistant - A Vietnamese voice assistant",
             description:
                 "The Virtual Voice Assistant is an AI-powered tool designed to assist Vietnamese speakers with various tasks. Developed in Python using Jupyter Notebook, the assistant leverages voice models and Shadcn UI to interact with users in a natural and intuitive manner. It supports a wide range of commands, helping users perform daily tasks efficiently.",
