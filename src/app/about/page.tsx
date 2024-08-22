@@ -9,7 +9,7 @@ const page = () => {
         { hobby: "Coding" },
         { hobby: "Playing badminton" },
         { hobby: "Watching Netflix" },
-        { hobby: "Writing Tech Blog" },
+        { hobby: "Writing Tech Bmmmmmmlog" },
         { hobby: "Creating Cool Projects" },
     ];
 
