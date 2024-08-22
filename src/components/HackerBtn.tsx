@@ -1,7 +1,9 @@
 "use client";
 import { useEffect, useState } from "react";
-import { Button } from "./ui/button";
-import { Download } from "lucide-react";
+import { buttonVariants } from "./ui/button";
+import { Send } from "lucide-react";
+import Link from "next/link";
+import { cn } from "@/lib/utils";
 
 const HackerBtn = ({ label }: { label: string }) => {
     const [displayText, setDisplayText] = useState(label);
@@ -33,15 +35,18 @@ const HackerBtn = ({ label }: { label: string }) => {
     }, [label]);
 
     return (
-        <Button
-            size={"lg"}
-            className="px-5 py-6 text-base"
+        <Link
+            href="https://t.me/hungdhv97"
+            target="blank"
+            className={cn(
+                buttonVariants({ variant: "default", size: "lg" }),
+                "flex",
+            )}
             onMouseEnter={startScrambling}
         >
-            {" "}
-            <Download className="mx-1" />
+            <Send className="mx-1" />
             {displayText}
-        </Button>
+        </Link>
     );
 };
 
