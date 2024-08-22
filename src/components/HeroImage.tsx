@@ -1,11 +1,11 @@
-import logo from "../../public/portfolioLogo.png";
+import avatar from "../../public/avatar.png";
 import Image from "next/image";
 
 const HeroImage = () => {
     return (
         <>
             <Image
-                src={logo}
+                src={avatar}
                 alt="logo"
                 loading="eager"
                 priority

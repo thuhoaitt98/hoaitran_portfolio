@@ -22,7 +22,7 @@ const educationPage = () => {
                         delay={0.35}
                         className="flex w-1/4 items-center justify-evenly font-rubik text-lg max-sm:text-base"
                     >
-                        July 2023 - 2026
+                        September 2015 - 2019
                     </FramerWrapper>
                     <FramerWrapper
                         y={0}
@@ -31,17 +31,10 @@ const educationPage = () => {
                         className="education_point relative w-3/4 gap-3 border-l-4 border-l-[#3c3c3c] p-4"
                     >
                         <div className="font-rubik text-2xl max-sm:text-xl">
-                            Bachelor of Computer Application, <br /> Ranchi
-                            University Jharkhand
+                            Bachelor of Information Technology, <br /> People
+                            Security Academy
                         </div>
-                        <p className="w-full font-poppins text-base text-primary max-sm:text-xs">
-                            I am currently Studying Bachelor of Computer
-                            Application form Doranda College Ranchi a Goverment
-                            College of Ranchi. The program has provided me with
-                            a well-rounded education, covering both theoretical
-                            foundations and practical applications of computer
-                            science.
-                        </p>
+                        <p className="w-full font-poppins text-base text-primary max-sm:text-xs"></p>
                     </FramerWrapper>
                 </div>
             </div>

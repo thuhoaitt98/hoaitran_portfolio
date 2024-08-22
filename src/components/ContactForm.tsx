@@ -1,14 +1,7 @@
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 
-import {
-    Card,
-    CardContent,
-    CardDescription,
-    CardFooter,
-    CardHeader,
-    CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "./ui/button";
 import { SendEmail } from "./SendEmail";
 
@@ -54,7 +47,11 @@ const ContactForm = () => {
                             placeholder="Your message here..."
                             name="message"
                             required
-                            className="flex min-h-[80px] w-full resize-none rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                            className="flex min-h-[80px] w-full resize-none rounded-md border border-input
+                                bg-background px-3 py-2 text-sm ring-offset-background
+                                placeholder:text-muted-foreground focus-visible:outline-none
+                                focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2
+                                disabled:cursor-not-allowed disabled:opacity-50"
                         ></textarea>
                     </div>
                 </CardContent>

@@ -17,7 +17,7 @@ const rubik = Rubik({
 
 const siteConfig = {
     name: "Patrick - hung.thai",
-    description: "I am a Passionate Software Developer",
+    description: "I am a Full Stack Developer",
     ogImage: "https://portfolio.hungthai.site/og-image.png",
     url: "https://portfolio.hungthai.site",
 };
@@ -30,7 +30,13 @@ export const metadata: Metadata = {
     },
     description: siteConfig.description,
     keywords: [
+        "patrick",
         "Patrick",
+        "hung",
+        "thai",
+        "hung.thai",
+        "full stack developer",
+        "full stack",
         "portfolio",
         "web developer",
         "web",
@@ -79,7 +85,9 @@ export default function RootLayout({
             <body className={`${poppins.variable} ${rubik.variable}`}>
                 <main
                     className={cn(
-                        "screen relative flex min-h-screen items-center justify-between break-words bg-transparent bg-[radial-gradient(#2f7df4_1px,transparent_1px)] px-40 pb-4 pt-14 [background-size:16px_16px] max-md:p-4 max-sm:pt-20",
+                        `screen relative flex min-h-screen items-center justify-between break-words
+                        bg-transparent bg-[radial-gradient(#2f7df4_1px,transparent_1px)] px-40 pb-4
+                        pt-14 [background-size:48px_48px] max-md:p-4 max-sm:pt-20`,
                         { "bg-white": "#E6E7EB" },
                     )}
                 >
