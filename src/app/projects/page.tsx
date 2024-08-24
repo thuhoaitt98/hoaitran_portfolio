@@ -7,22 +7,31 @@ import { Layers } from "lucide-react";
 const projectsPage = () => {
     const Projects = [
         {
-            title: "Yogiyo - Backend service for a large-scale ecommerce shopping website",
+            title: "Play to earn",
             description:
-                "Yogiyo is a backend service designed for a large ecommerce shopping website, supporting high traffic and complex operations. It leverages a microservices architecture, utilizing Django for Python2, FastAPI for Python3, and SpringBoot for Java and Kotlin. The system is built with robust technologies like Postgresql, MongoDB, and Redis for data management. It also integrates CI/CD pipelines using Docker, Kubernetes, and Github Actions to ensure smooth and continuous deployment processes.",
+                "Play to earn is an online gaming platform that specializes in " +
+                "providing a variety of betting and gambling options, including sports betting, eSports, and casino games. " +
+                "The platform allows users to place bets on a wide range of events and games, offering an engaging and interactive " +
+                "experience for both casual and serious bettors. Play to earn emphasizes security, user experience, and a seamless betting process, " +
+                "making it a popular choice for users looking to participate in online gaming and betting activities.",
             tags: [
-                "Django (Python2)",
-                "FastAPI (Python3)",
-                "SpringBoot (Java)",
-                "SpringBoot (Kotlin)",
-                "Postgresql",
+                "Jira",
+                "Postman",
+                "Swagger",
+                "Kafka",
+                "AWS",
                 "Mongodb",
-                "Redis",
-                "Docker",
-                "Kubernetes",
-                "CI/CD (Github Actions)",
+                "MySQL",
+                "Rudderstack",
+                "Jmeter ",
+                "Intercom",
+                "Contenful",
+                "Oddin",
+                "MTS",
+                "Betradar",
+                "Console log",
             ],
-            link: "https://www.yogiyo.co.kr/mobile/#/",
+            link: "https://ubet.io/",
         },
         {
             title: "Xoai Shop - A comprehensive ecommerce shopping website",
@@ -50,8 +59,12 @@ const projectsPage = () => {
         {
             title: "FNFBot - Automation tool for the Friday Night Funkin game",
             description:
-                "FNFBot is a specialized tool designed to assist players of the popular rhythm game Friday Night Funkin. Developed using C# and Winform, the tool provides automated gameplay assistance, allowing users to improve their performance. The application is user-friendly, with an intuitive interface that makes it accessible even to those with limited technical experience.",
-            tags: ["C#", "Winform"],
+                "FNFBot is a specialized tool designed to assist players of the popular rhythm game Friday Night Funkin. " +
+                "The tool provides automated gameplay assistance, allowing users " +
+                "to improve their performance. The application is user-friendly, with an intuitive interface" +
+                " that makes it accessible even to those with limited technical experience.",
+            tags: ["FunctionalTesting", "IntegrationTesting","PerformanceTesting","SecurityTesting","CompatibilityTesting","UsabilityTesting", "ErrorHandling",
+            "RegressionTesting","UserInteractionTesting","LoadTesting"],
             link: "https://github.com/hungdhv97/FNFNewBot",
         },
         {
@@ -97,13 +110,6 @@ const projectsPage = () => {
             link: "https://github.com/taqui-786/crousal-maker",
         },
         {
-            title: "Realtime Face Recognition - AI-driven face recognition tool",
-            description:
-                "Realtime Face Recognition is an AI-driven tool developed to recognize and track faces in real time using Python and OpenCV. The application can be used for security purposes, in smart homes, or as a part of other advanced systems requiring face recognition capabilities. It is designed to be fast and accurate, handling multiple faces simultaneously.",
-            tags: ["Python", "OpenCV"],
-            link: "https://github.com/hungdhv97/Real-Time-Face-Recognition-With-CPU",
-        },
-        {
             title: "Self Driving Car - Simulation of an autonomous driving car",
             description:
                 "The Self Driving Car project is a Python-based simulation that demonstrates the principles of autonomous driving. The application models a self-driving car navigating various road conditions and obstacles, showcasing AI's potential in revolutionizing transportation. It serves as a valuable learning tool for those interested in autonomous vehicles.",
@@ -117,13 +123,6 @@ const projectsPage = () => {
             tags: ["Unity3D"],
             link: "https://github.com/hungdhv97/Crime-Scene-Demo",
         },
-        {
-            title: "GLOW - Retraining AI model with Vietnamese human faces",
-            description:
-                "GLOW is a project focused on retraining AI models to better recognize Vietnamese human faces. Utilizing Python and advanced AI models, the project aims to improve the accuracy of facial recognition systems in diverse environments. The retrained models are evaluated to ensure they perform well across different demographics, making the technology more inclusive.",
-            tags: ["Python", "AIModel"],
-            link: "https://github.com/hungdhv97/Glow-Generative-Flow-with-Invertible-1x1-Convolutions",
-        },
     ];
 
     return (
@@ -135,13 +134,11 @@ const projectsPage = () => {
             <div className="flex flex-col gap-3">
                 <Heading>My Projects</Heading>
                 <FramerWrapper y={0} x={200}>
-                    <p className="w-full font-poppins text-lg text-justify text-primary max-sm:text-base">
-                        I love to Build Cool Projects. Here, you&#x27;ll find a
-                        curated collection of my creative endeavors and
-                        technical projects. Each piece represents a journey of
-                        innovation, problem-solving, and continuous learning.
-                        Feel free to explore this showcase of my passion and
-                        expertise in action.
+                    <p className="w-full font-nunito text-xl text-justify text-primary max-sm:text-base">
+                        I have participated in various projects across gaming platforms, blockchain, e-commerce,
+                        and information management. I tested and developed features for online gaming platforms, ensured security and performance for
+                        blockchain platforms and smart contracts, optimized online shopping processes on e-commerce systems,
+                        and built large-scale data management systems to help businesses manage information efficiently.
                     </p>
                 </FramerWrapper>
             </div>

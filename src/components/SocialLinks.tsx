@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import { ExternalLink, Facebook, Linkedin, Twitter } from "lucide-react";
+import { Instagram, Facebook, Linkedin, Twitter } from "lucide-react";
 import { buttonVariants } from "./ui/button";
 import Link from "next/link";
 import FramerWrapper from "./FramerWrapper";
@@ -8,23 +8,23 @@ const SocialLinks = () => {
     const links = [
         {
             name: "Facebook",
-            link: "https://www.facebook.com/shahina.khatun.1044",
+            link: "https://www.facebook.com/tranthu.hoai.543/",
             icon: <Facebook />,
         },
         {
             name: "Twitter",
-            link: "https://twitter.com/Taquiimam14",
+            link: "https://x.com/HoaiTranThiThu2",
             icon: <Twitter />,
         },
         {
             name: "Linkedin",
-            link: "https://www.linkedin.com/in/taqui-imam",
+            link: "https://www.linkedin.com/in/hoaittt162/",
             icon: <Linkedin />,
         },
         {
-            name: "External",
-            link: "https://tinyurl.com/MdTaquiImam",
-            icon: <ExternalLink />,
+            name: "Instagram",
+            link: "https://www.instagram.com/thuhoai_tht/",
+            icon: <Instagram />,
         },
     ];
     return (

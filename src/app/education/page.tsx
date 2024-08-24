@@ -6,32 +6,20 @@ import { Briefcase } from "lucide-react";
 const educationPage = () => {
     const awards = [
         {
-            year: "2015",
-            title: "Third Prize in the National Mathematics Olympiad for 12th grade students",
-        },
-        {
-            year: "2016",
-            title: "Third Prize in the National Mathematics Olympiad for university students",
-        },
-        {
-            year: "2016",
-            title: "Consolation Prize in the National Computer Science Olympiad for university students",
-        },
-        {
-            year: "2017",
-            title: "First Prize in the National Mathematics Olympiad for university students",
-        },
-        {
-            year: "2017",
-            title: "Third Prize in the National Computer Science Olympiad for university students",
+            year: "2018",
+            title: "School-level Five Good Student",
         },
         {
             year: "2018",
-            title: "First Prize in the National Mathematics Olympiad for university students",
+            title: "Volunteer of the 'Warm Winter, Loving Tet' Program in Lang Son Province",
         },
         {
             year: "2019",
-            title: "Second Prize in the student scientific research competition organized by the People’s Security Academy",
+            title: "Volunteer of the 'Together with Children to School' Campaign in Hoa Binh Province",
+        },
+        {
+            year: "2019",
+            title: "Volunteer of the 'Spreading Love' Campaign at the Nursing Home",
         },
     ];
     return (
@@ -51,7 +39,7 @@ const educationPage = () => {
                         delay={0.35}
                         className="flex w-1/4 items-center justify-evenly font-rubik text-lg max-sm:text-base"
                     >
-                        September 2015 - 2019
+                        September 2017 - 2021
                     </FramerWrapper>
                     <FramerWrapper
                         y={0}
@@ -60,31 +48,52 @@ const educationPage = () => {
                         className="education_point relative w-3/4 gap-3 border-l-4 border-l-[#3c3c3c] p-4"
                     >
                         <div className="font-rubik text-2xl max-sm:text-xl">
-                            Bachelor of Information Technology, <br /> People
-                            Security Academy
+                            International Economics, <br /> Foreign Trade University
+                        </div>
+                        <p className="w-full font-poppins text-base text-primary max-sm:text-xs"></p>
+                    </FramerWrapper>
+                </div>
+                <div className="flex h-fit w-full">
+                    <FramerWrapper
+                        y={0}
+                        x={-100}
+                        delay={0.35}
+                        className="flex w-1/4 items-center justify-evenly font-rubik text-lg max-sm:text-base"
+                    >
+                        Jan 2021 - April 2021
+                    </FramerWrapper>
+                    <FramerWrapper
+                        y={0}
+                        x={100}
+                        delay={0.35}
+                        className="education_point relative w-3/4 gap-3 border-l-4 border-l-[#3c3c3c] p-4"
+                    >
+                        <div className="font-rubik text-2xl max-sm:text-xl">
+                            Tester Training Course, <br /> TesterTop Center
                         </div>
                         <p className="w-full font-poppins text-base text-primary max-sm:text-xs"></p>
                     </FramerWrapper>
                 </div>
             </div>
-            <div className="flex flex-col gap-3">
-                <Heading>Awards</Heading>
-            </div>
-            <div className="flex h-fit w-full flex-col">
-                {awards.map((award, index) => (
-                    <div className="flex h-fit w-full" key={index}>
-                        <FramerWrapper
-                            y={0}
-                            x={-100}
-                            delay={0.35 + index * 0.05}
-                            className="flex w-1/4 items-center justify-evenly font-rubik text-lg max-sm:text-base"
-                        >
-                            {award.year}
-                        </FramerWrapper>
-                        <FramerWrapper
-                            y={0}
-                            x={100}
-                            delay={0.35 + index * 0.05}
+
+    <div className="flex flex-col gap-3">
+        <Heading>Awards and Activities</Heading>
+    </div>
+    <div className="flex h-fit w-full flex-col">
+        {awards.map((award, index) => (
+            <div className="flex h-fit w-full" key={index}>
+                <FramerWrapper
+                    y={0}
+                    x={-100}
+                    delay={0.35 + index * 0.05}
+                    className="flex w-1/4 items-center justify-evenly font-rubik text-lg max-sm:text-base"
+                >
+                    {award.year}
+                </FramerWrapper>
+                <FramerWrapper
+                    y={0}
+                    x={100}
+                    delay={0.35 + index * 0.05}
                             className="education_point relative w-3/4 gap-3 border-l-4 border-l-[#3c3c3c] p-4"
                         >
                             <div className="font-rubik text-2xl max-sm:text-xl">

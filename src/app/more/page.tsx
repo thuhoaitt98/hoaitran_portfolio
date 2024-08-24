@@ -10,12 +10,12 @@ import FramerWrapper from "@/components/FramerWrapper";
 const morePage = () => {
     const morelink = [
         {
-            title: "codelearn.io",
+            title: "Xoai Shop-A comprehensive ecommerce shopping website",
             description:
-                "Working with machine learning and AI in image and audio processing has highlighted the importance of thorough data preprocessing. " +
-                "Clean code practices, especially in Python and Java, are essential for maintainability and collaboration. " +
-                "Clear naming, modular design, and good documentation are key to successful projects.",
-            link: "https://codelearn.io/sharing/post/1429199",
+                "Xoai Shop is a fully-featured ecommerce platform built using Django and Postgresql on the backend, with a modern frontend powered by Next.js and TypeScript. " +
+                "The site is styled with TailwindCSS for responsive design and uses Redis for caching to improve performance. " +
+                "The development and deployment process is streamlined with Docker and CI/CD integration via Github Actions, ensuring reliability and scalability.",
+            link: "https://www.xoai.shop/",
         },
     ];
 
@@ -33,7 +33,7 @@ const morePage = () => {
                     return (
                         <FramerWrapper
                             key={indx}
-                            className="max-w-[32%] max-lg:max-w-full"
+                            className="max-w-[100%] max-lg:max-w-full"
                             y={0}
                             scale={0.8}
                             delay={indx / 4}

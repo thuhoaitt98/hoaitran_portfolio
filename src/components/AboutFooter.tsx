@@ -12,7 +12,7 @@ const AboutFooter = () => {
             answer: "Viet Nam",
             icon: <Globe2 className="h-8 w-8" />,
         },
-        { name: "Gender", answer: "Male", icon: <Dna className="h-8 w-8" /> },
+        { name: "Gender", answer: "FeMale", icon: <Dna className="h-8 w-8" /> },
     ];
 
     return (

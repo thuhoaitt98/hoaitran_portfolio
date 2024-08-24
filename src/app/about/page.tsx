@@ -6,11 +6,11 @@ import { Circle, Heart, User2 } from "lucide-react";
 
 const page = () => {
     const items = [
-        { hobby: "Coding" },
+        { hobby: "Designing" },
         { hobby: "Playing badminton" },
         { hobby: "Watching Netflix" },
-        { hobby: "Writing Tech Bmmmmmmlog" },
-        { hobby: "Creating Cool Projects" },
+        { hobby: "Painting" },
+        { hobby: "Writing Blog" },
     ];
 
     return (
@@ -21,24 +21,18 @@ const page = () => {
             </Badge>
             <div className="flex flex-col gap-3">
                 <Heading>
-                    Software Engineer And Web <br /> Developer, Based In Viet
+                    Software Engineer And Web <br /> Quality Control, Based In Viet
                     Nam.
                 </Heading>
                 <FramerWrapper y={0} x={100}>
-                    <p className="w-full font-poppins text-justify text-xl text-primary max-sm:text-lg">
-                        I am a Full Stack Web Developer from Nghe An, Viet Nam,
-                        with extensive experience in building robust backend
-                        systems for large-scale applications. While I have a
-                        passion for crafting innovative web projects and
-                        contributing to open-source communities, my expertise
-                        shines in my mastery of JavaScript, CSS, and server-side
-                        technologies. My biggest achievement is my ability to
-                        design and implement complex backend architectures that
-                        ensure scalability, security, and efficiency. With a
-                        keen eye for detail and a commitment to delivery speed,
-                        I excel at creating seamless and responsive interfaces
-                        that are supported by powerful and reliable backend
-                        systems, leaving a lasting impression on users.
+                    <p className="w-full font-nunito text-justify text-0.5xl text-primary max-sm:text-lg">
+                        With 3+ years of experience in Quality
+                        Control, I’ve built strong skills in product
+                        quality. My short-term goal is to
+                        become a Test Leader while my long
+                        term aim is to advance to a Senior
+                        tester role to deepen my expertise and
+                        take on greater responsibilities.
                     </p>
                 </FramerWrapper>
             </div>

@@ -36,7 +36,7 @@ const HackerBtn = ({ label }: { label: string }) => {
 
     return (
         <Link
-            href="https://t.me/hungdhv97"
+            href="https://t.me/thuhoaitt98"
             target="blank"
             className={cn(
                 buttonVariants({ variant: "default", size: "lg" }),

@@ -69,35 +69,39 @@ const skillPage = () => {
             <div className="flex flex-col gap-3">
                 <Heading>My Technical Experience/Skills.</Heading>
                 <FramerWrapper y={0} x={200}>
-                    <p className="w-full text-justify font-poppins text-xl text-primary max-sm:text-lg">
-                        I am an experienced full-stack developer with a strong
-                        foundation in HTML5, CSS3, JavaScript, and TypeScript. I
-                        have deep expertise in building scalable and
-                        high-performance web applications using modern
-                        frameworks and libraries, including React, Next.js, and
-                        Node.js. My skill set encompasses both front-end and
-                        back-end development, with a particular emphasis on
-                        responsive design, user experience, and seamless
-                        integration of server-side logic with client-side
-                        functionality. I am proficient in designing and
-                        implementing complex web architectures that meet the
-                        demands of today&#x27;s dynamic digital landscape.
+                    <p className="w-full text-justify font-nunito text-xl text-primary max-sm:text-lg indent-10">
+                        Throughout my career, I have developed advanced skills such as testing web applications,
+                        mobile
+                        apps,
+                        or tools to identify and report bugs and issues. I have experience working in an Agile
+                        environment,
+                        as well as proficiency in working with SQL, MySQL, and APIs. I also possess design skills in
+                        Figma and
+                        have a basic understanding of processes, techniques, and the software development cycle.
+                        <br />
+                        <br />
+                        Additionally, I have strong soft skills, including fluent English reading and writing
+                        abilities,
+                        good teamwork skills, independent working capabilities, excellent problem-solving,
+                        analytical,
+                        and critical
+                        thinking skills, and effective team and task management abilities.
                     </p>
                 </FramerWrapper>
                 <FramerWrapper y={100} delay={0.3} className="block">
-                    <h1 className="text_underline relative flex gap-2 font-poppins text-2xl font-semibold text-primary max-sm:text-xl">
+                    <h1 className="text_underline relative flex gap-2 font-nunito text-2xl font-semibold text-primary max-sm:text-xl">
                         Programming Languages
                     </h1>
                     <SkillsFooter items={programmingLanguages} />
                 </FramerWrapper>
                 <FramerWrapper className="block" y={100} delay={0.32}>
-                    <h1 className="text_underline relative flex gap-2 font-poppins text-2xl font-semibold text-primary max-sm:text-xl">
+                    <h1 className="text_underline relative flex gap-2 font-nunito text-2xl font-semibold text-primary max-sm:text-xl">
                         Web Technologies and Frameworks
                     </h1>
                     <SkillsFooter items={webTechnologies} />
                 </FramerWrapper>
                 <FramerWrapper className="block" y={100} delay={0.34}>
-                    <h1 className="text_underline relative flex gap-2 font-poppins text-2xl font-semibold text-primary max-sm:text-xl">
+                    <h1 className="text_underline relative flex gap-2 font-nunito text-2xl font-semibold text-primary max-sm:text-xl">
                         Tools and Platforms
                     </h1>
                     <SkillsFooter items={toolsAndPlatforms} />
