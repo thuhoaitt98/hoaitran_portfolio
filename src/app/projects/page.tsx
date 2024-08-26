@@ -95,13 +95,15 @@ const projectsPage = () => {
                 "the Web3 space using its Launchpad and is powered by the Fellaz Token ($FLZ). Developed with C# and Selenium, " +
                 "it automates the tedious tasks involved in claiming airdrops, saving users time and effort. The tool is user-friendly " +
                 "and can handle multiple airdrops simultaneously, making it a valuable asset for crypto enthusiasts.",
-            tags: ["C#", "Selenium"],
+            tags: ["Smart contract", "ICO","INO","Entertainment","Fellaz"],
             link: "https://fellaz.io/",
         },
         {
-            title: "Covid-19 Tracking App - Realtime tracking of Covid-19 cases",
+            title: "VASP Lambda",
             description:
-                "The Covid-19 Tracking App is a real-time website designed to track Covid-19 cases across different regions. Built with React.js and JavaScript, the app fetches and displays the latest data on Covid-19 cases, recoveries, and deaths. The application features an intuitive interface, making it easy for users to stay informed about the pandemic's progress in their area.",
+                " VASP Lambda: manages information of VASP member including\n" +
+                " analytics transaction TravelRule, monthly statement, billing, personal\n" +
+                " account.",
             tags: ["Reactjs", "Javascript"],
             link: "https://github.com/hungdhv97/covid-19-tracker-app",
         },
@@ -113,21 +115,17 @@ const projectsPage = () => {
             link: "https://github.com/taqui-786/crousal-maker",
         },
         {
-            title: "Tetris Game - A simple yet engaging Tetris game",
+            title: "LFW",
             description:
-                "This Tetris Game is a Java-based application that brings the classic Tetris experience to modern platforms. The game features smooth gameplay and intuitive controls, offering players of all ages an enjoyable and nostalgic gaming experience. The application is lightweight and designed to run efficiently on a wide range of devices.",
-            tags: ["Java"],
-            link: "https://github.com/taqui-786/crousal-maker",
+                "LFW.Fi Earn is designed to maximize your crypto earnings through various DeFi strategies such as staking, " +
+                "liquidity provision, and unlimited swapping via LFW.Fi’s cross-chain DEX solution. It offers high-efficiency " +
+                "returns while ensuring robust security, allowing you to grow and protect your assets. With the added flexibility of cross-chain swapping, " +
+                "users can easily exchange assets across different blockchains within a secure and user-friendly environment.",
+            tags: ["Swap","Stake","Unstake","Superchage Pool"],
+            link: "https://lfw-dev.netlify.app/home",
         },
         {
-            title: "Self Driving Car - Simulation of an autonomous driving car",
-            description:
-                "The Self Driving Car project is a Python-based simulation that demonstrates the principles of autonomous driving. The application models a self-driving car navigating various road conditions and obstacles, showcasing AI's potential in revolutionizing transportation. It serves as a valuable learning tool for those interested in autonomous vehicles.",
-            tags: ["Python"],
-            link: "https://github.com/hungdhv97/Self-Driving-Cars",
-        },
-        {
-            title: "Crime Scene - A demo of a 3D crime scene simulation",
+            title: "Coway",
             description:
                 "Crime Scene is a Unity3D-based project that simulates a 3D crime scene, providing users with an interactive environment to explore and investigate. The demo is designed to demonstrate the capabilities of Unity3D in creating realistic simulations for training or entertainment purposes. Users can navigate the scene, gather clues, and solve the mystery.",
             tags: ["Unity3D"],

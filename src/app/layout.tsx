@@ -18,20 +18,20 @@ const rubik = Rubik({
 const siteConfig = {
     name: "Farah - Hoai.Tran",
     description: "I am a quality control",
-    ogImage: "https://portfolio.hungthai.site/og-image.png",
-    url: "https://portfolio.hungthai.site",
+    ogImage: "https://portfolio.hoaitran.site/og-image.png",
+    url: "https://portfolio.hoaitran.site",
 };
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://portfolio.hungthai.site"),
+    metadataBase: new URL("https://portfolio.hoaitran.site"),
     title: {
         default: siteConfig.name,
         template: `%s - Software Engineer`,
     },
     description: siteConfig.description,
     keywords: [
-        "patrick",
-        "Patrick",
+        "farah",
+        "Farah",
         "hung",
         "thai",
         "hung.thai",
@@ -68,7 +68,7 @@ export const metadata: Metadata = {
         title: siteConfig.name,
         description: siteConfig.description,
         images: [`${siteConfig.url}/og-image.png`],
-        creator: "Patrick",
+        creator: "Farah",
     },
     icons: {
         icon: "/favicon.ico",
