@@ -50,9 +50,9 @@ const projectsPage = () => {
             link: "https://github.com/hungdhv97/xoai_shop",
         },
         {
-            title: "Patrick Portfolio - Personal portfolio website",
+            title: "Farah Portfolio - Personal portfolio website",
             description:
-                "Patrick Portfolio is a personal portfolio website showcasing a developer's skills, projects, and experiences. Built with Next.js and TypeScript, the site features a clean and modern design using Shadcn UI components. The portfolio is designed to be responsive and user-friendly, making it easy for potential employers and collaborators to explore the developer's work.",
+                "Farah Portfolio is a personal portfolio website showcasing a developer's skills, projects, and experiences.",
             tags: ["Nextjs", "Typescript", "Shadcn Ui"],
             link: "https://github.com/hungdhv97/hungthai_portfolio",
         },
@@ -68,25 +68,35 @@ const projectsPage = () => {
             link: "https://github.com/hungdhv97/FNFNewBot",
         },
         {
-            title: "HH Story - Backend and admin panel for a story reading website",
+            title: "Liveon",
             description:
-                "HH Story is a backend service and admin panel for a website dedicated to reading and managing stories. It is built with Django, utilizing Scrapy for web scraping and Celery for task management. The platform enables efficient management of large volumes of stories, providing administrators with the tools they need to maintain and update content effortlessly.",
+                "A social network website providing match information about\n" +
+                " sports and cryptocurrency. ",
             tags: ["Django", "Scrapy", "Celery"],
             link: "https://github.com/hungdhv97/story-django",
         },
         {
-            title: "HH Story Frontend - Frontend for a story reading website",
+            title: "WORKFLOW STUDIO",
             description:
-                "The HH Story Frontend is the user-facing part of a story reading website, designed with Next.js and styled using TailwindCSS and Shadcn UI. The frontend is optimized for performance and accessibility, providing a seamless reading experience for users. It is fully responsive, ensuring that the website looks great and functions well on all devices.",
-            tags: ["Nextjs", "Tailwindcss", "Shadcn-ui", "Typescript"],
-            link: "https://github.com/hungdhv97/story-frontend",
+                "The Web3 Workflow Studio provided by Morpheus Labs is a low-code workflow automation platform " +
+                "that enables seamless integration between Web2 and Web3 systems. " +
+                "This platform is particularly useful for non-technical users, " +
+                "allowing them to create and manage complex workflows with minimal effort.",
+            tags: ["Blockchain","Workflow", "Shadcn-ui", "Low-Code Development","Template-Based Testing","Smart Contract Validation"],
+            link: "https://wfstudio.morpheuslabs.io/",
         },
         {
-            title: "Crypto Airdrop Tool - Automation tool for crypto airdrops",
+            title: "Fellaz - an ICO (Initial Coin Offering) and INO (Initial NFT\n" +
+                " Offering) launchpad",
             description:
-                "The Crypto Airdrop Tool is an automation tool designed to simplify the process of participating in cryptocurrency airdrops. Developed with C# and Selenium, it automates the tedious tasks involved in claiming airdrops, saving users time and effort. The tool is user-friendly and can handle multiple airdrops simultaneously, making it a valuable asset for crypto enthusiasts.",
+                "Fellaz is a Web3 platform focused on transforming entertainment through decentralized technology. It offers NFT-based memberships, " +
+                "ticketing, and community ownership, empowering creators to develop content across various media. The platform also supports onboarding" +
+                " entertainment projects into " +
+                "the Web3 space using its Launchpad and is powered by the Fellaz Token ($FLZ). Developed with C# and Selenium, " +
+                "it automates the tedious tasks involved in claiming airdrops, saving users time and effort. The tool is user-friendly " +
+                "and can handle multiple airdrops simultaneously, making it a valuable asset for crypto enthusiasts.",
             tags: ["C#", "Selenium"],
-            link: "https://github.com/hungdhv97/AirdropToolV2.1",
+            link: "https://fellaz.io/",
         },
         {
             title: "Covid-19 Tracking App - Realtime tracking of Covid-19 cases",

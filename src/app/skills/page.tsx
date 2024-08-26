@@ -69,7 +69,7 @@ const skillPage = () => {
             <div className="flex flex-col gap-3">
                 <Heading>My Technical Experience/Skills.</Heading>
                 <FramerWrapper y={0} x={200}>
-                    <p className="w-full text-justify font-nunito text-xl text-primary max-sm:text-lg indent-10">
+                    <p className="w-full text-justify font-nunito text-xl text-primary max-sm:text-lg">
                         Throughout my career, I have developed advanced skills such as testing web applications,
                         mobile
                         apps,
@@ -87,18 +87,6 @@ const skillPage = () => {
                         and critical
                         thinking skills, and effective team and task management abilities.
                     </p>
-                </FramerWrapper>
-                <FramerWrapper y={100} delay={0.3} className="block">
-                    <h1 className="text_underline relative flex gap-2 font-nunito text-2xl font-semibold text-primary max-sm:text-xl">
-                        Programming Languages
-                    </h1>
-                    <SkillsFooter items={programmingLanguages} />
-                </FramerWrapper>
-                <FramerWrapper className="block" y={100} delay={0.32}>
-                    <h1 className="text_underline relative flex gap-2 font-nunito text-2xl font-semibold text-primary max-sm:text-xl">
-                        Web Technologies and Frameworks
-                    </h1>
-                    <SkillsFooter items={webTechnologies} />
                 </FramerWrapper>
                 <FramerWrapper className="block" y={100} delay={0.34}>
                     <h1 className="text_underline relative flex gap-2 font-nunito text-2xl font-semibold text-primary max-sm:text-xl">

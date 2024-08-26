@@ -16,8 +16,8 @@ const rubik = Rubik({
 });
 
 const siteConfig = {
-    name: "Patrick - hung.thai",
-    description: "I am a Full Stack Developer",
+    name: "Farah - Hoai.Tran",
+    description: "I am a quality control",
     ogImage: "https://portfolio.hungthai.site/og-image.png",
     url: "https://portfolio.hungthai.site",
 };
@@ -48,11 +48,11 @@ export const metadata: Metadata = {
     ],
     authors: [
         {
-            name: "Patrick",
-            url: "https://github.com/hungdhv97",
+            name: "Farah",
+            url: "https://github.com/thuhoaitt98",
         },
     ],
-    creator: "Patrick",
+    creator: "Farah",
 
     openGraph: {
         type: "website",

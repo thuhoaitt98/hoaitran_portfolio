@@ -21,11 +21,11 @@ const page = () => {
             </Badge>
             <div className="flex flex-col gap-3">
                 <Heading>
-                    Software Engineer And Web <br /> Quality Control, Based In Viet
+                    Quality Control, Based In Viet
                     Nam.
                 </Heading>
                 <FramerWrapper y={0} x={100}>
-                    <p className="w-full font-nunito text-justify text-0.5xl text-primary max-sm:text-lg">
+                    <p className="w-full font-nunito text-justify text-xl text-primary max-sm:text-lg">
                         With 3+ years of experience in Quality
                         Control, I’ve built strong skills in product
                         quality. My short-term goal is to
