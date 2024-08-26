@@ -12,10 +12,21 @@ const morePage = () => {
         {
             title: "Xoai Shop-A comprehensive ecommerce shopping website",
             description:
-                "Xoai Shop is a fully-featured ecommerce platform built using Django and Postgresql on the backend, with a modern frontend powered by Next.js and TypeScript. " +
-                "The site is styled with TailwindCSS for responsive design and uses Redis for caching to improve performance. " +
-                "The development and deployment process is streamlined with Docker and CI/CD integration via Github Actions, ensuring reliability and scalability.",
+                "Xoai Shop an e-commerce website that offers a variety of products and services online. The site likely focuses on providing" +
+                " a convenient and easy shopping experience for users by offering a wide range of goods. With a user-friendly interface," +
+                " xoai.shop makes it simple for customers to search, select, and purchase products that meet their needs." +
+                " The website may also offer customer support services, promotions, and secure, flexible payment options.",
             link: "https://www.xoai.shop/",
+        },
+        {
+            title: "Xoai Shop - Ba & Designer",
+            description:
+                "In my role as both Business Analyst (BA) and Designer for Xoaishop, I am responsible for gathering" +
+                " and defining business requirements, creating user-centric designs, and ensuring that the development team has clear," +
+                " actionable insights to build an effective and visually appealing e-commerce platform. " +
+                "My work bridges the gap between business needs and technical implementation, " +
+                "helping to shape the overall user experience and functionality of the site.",
+            link: "https://docs.google.com/document/d/1-oy_NDJ4v6wAmP_mFeTGAL_BvIjCqERC6QKVqZeHTvE/edit#heading=h.dhm5o7m1cvv5",
         },
     ];
 

@@ -38,23 +38,14 @@ const projectsPage = () => {
             description:
                 "Xoai Shop is a fully-featured ecommerce platform built using Django and Postgresql on the backend, with a modern frontend powered by Next.js and TypeScript. The site is styled with TailwindCSS for responsive design and uses Redis for caching to improve performance. The development and deployment process is streamlined with Docker and CI/CD integration via Github Actions, ensuring reliability and scalability.",
             tags: [
-                "Django",
-                "Postgresql",
-                "Nextjs",
-                "Typescript",
-                "Tailwindcss",
-                "Redis",
-                "Docker",
-                "CI/CD (Github Actions)",
+                "MySQL",
+                "API testing",
+                "Order",
+                "Payment",
+                "Figma",
+                "Django administration",
             ],
             link: "https://github.com/hungdhv97/xoai_shop",
-        },
-        {
-            title: "Farah Portfolio - Personal portfolio website",
-            description:
-                "Farah Portfolio is a personal portfolio website showcasing a developer's skills, projects, and experiences.",
-            tags: ["Nextjs", "Typescript", "Shadcn Ui"],
-            link: "https://github.com/hungdhv97/hungthai_portfolio",
         },
         {
             title: "FNFBot - Automation tool for the Friday Night Funkin game",
@@ -66,14 +57,6 @@ const projectsPage = () => {
             tags: ["FunctionalTesting", "IntegrationTesting","PerformanceTesting","SecurityTesting","CompatibilityTesting","UsabilityTesting", "ErrorHandling",
             "RegressionTesting","UserInteractionTesting","LoadTesting"],
             link: "https://github.com/hungdhv97/FNFNewBot",
-        },
-        {
-            title: "Liveon",
-            description:
-                "A social network website providing match information about\n" +
-                " sports and cryptocurrency. ",
-            tags: ["Django", "Scrapy", "Celery"],
-            link: "https://github.com/hungdhv97/story-django",
         },
         {
             title: "WORKFLOW STUDIO",
@@ -104,15 +87,8 @@ const projectsPage = () => {
                 " VASP Lambda: manages information of VASP member including\n" +
                 " analytics transaction TravelRule, monthly statement, billing, personal\n" +
                 " account.",
-            tags: ["Reactjs", "Javascript"],
-            link: "https://github.com/hungdhv97/covid-19-tracker-app",
-        },
-        {
-            title: "Virtual Voice Assistant - A Vietnamese voice assistant",
-            description:
-                "The Virtual Voice Assistant is an AI-powered tool designed to assist Vietnamese speakers with various tasks. Developed in Python using Jupyter Notebook, the assistant leverages voice models and Shadcn UI to interact with users in a natural and intuitive manner. It supports a wide range of commands, helping users perform daily tasks efficiently.",
-            tags: ["Python", "JupiterNotebook", "VoiceModel", "Shadcn Ui"],
-            link: "https://github.com/taqui-786/crousal-maker",
+            tags: ["Account management", "Membership","Truevalue","Billing","Keycloak","Postman"],
+            link: "Private",
         },
         {
             title: "LFW",
@@ -121,15 +97,17 @@ const projectsPage = () => {
                 "liquidity provision, and unlimited swapping via LFW.Fi’s cross-chain DEX solution. It offers high-efficiency " +
                 "returns while ensuring robust security, allowing you to grow and protect your assets. With the added flexibility of cross-chain swapping, " +
                 "users can easily exchange assets across different blockchains within a secure and user-friendly environment.",
-            tags: ["Swap","Stake","Unstake","Superchage Pool"],
+            tags: ["Swap","Stake","Unstake","Superchage Pool", "Reward"],
             link: "https://lfw-dev.netlify.app/home",
         },
         {
-            title: "Coway",
+            title: "Coway Digital Sales",
             description:
-                "Crime Scene is a Unity3D-based project that simulates a 3D crime scene, providing users with an interactive environment to explore and investigate. The demo is designed to demonstrate the capabilities of Unity3D in creating realistic simulations for training or entertainment purposes. Users can navigate the scene, gather clues, and solve the mystery.",
-            tags: ["Unity3D"],
-            link: "https://github.com/hungdhv97/Crime-Scene-Demo",
+                "serves as a login portal for Coway sellers using a mobile app. This app enables sellers to manage their accounts, " +
+                "track sales, and update product information on the go. Additionally, sellers can receive notifications about new promotions, " +
+                "important notices, and product updates, all within the mobile app to enhance their business efficiency.",
+            tags: ["Real-Time Data Sync","Notifications","Product Information Sync","User Account Management","Sales Data Integrity"],
+            link: "https://ar.coway.com/front/home?",
         },
     ];
 

@@ -26,13 +26,11 @@ const page = () => {
                 </Heading>
                 <FramerWrapper y={0} x={100}>
                     <p className="w-full font-nunito text-justify text-xl text-primary max-sm:text-lg">
-                        With 3+ years of experience in Quality
-                        Control, I’ve built strong skills in product
-                        quality. My short-term goal is to
-                        become a Test Leader while my long
-                        term aim is to advance to a Senior
-                        tester role to deepen my expertise and
-                        take on greater responsibilities.
+                        I am a passionate software tester with over 3 years of experience across various domains.
+                        Throughout my career, I have honed my skills in identifying issues and ensuring the quality of software products.
+                        My short-term goal is to advance to a Test Leader role, where I can guide and mentor a team of testers.
+                        In the long run, I aspire to become a Senior Tester,
+                        continually expanding my expertise and contributing to the success of larger and more complex projects.
                     </p>
                 </FramerWrapper>
             </div>
