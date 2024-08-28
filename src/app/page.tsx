@@ -20,7 +20,7 @@ export default function Home() {
                 <DownLoadResumeBtn />
             </FramerWrapper>
             <FramerWrapper
-                className="relative block h-full w-[47%] max-lg:hidden"
+                className="relative block w-1/3 mr-40 max-lg:hidden"
                 y={0}
                 x={100}
             >

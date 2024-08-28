@@ -3,11 +3,9 @@ services:
     build:
       context: .
       args:
-        RESEND_API_KEY: "resend-api-key"
+        RESEND_API_KEY: "re_62GwbQ8T_8uwxnc3zbwMnKtweYEPkMj1M"
     image: hoaitran_portfolio_frontend
     container_name: hoaitran_portfolio_frontend
-    ports:
-      - "5000:3000"
     networks:
       - nginx_network
 
